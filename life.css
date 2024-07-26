@@ -1,0 +1,65 @@
+body{
+    background-color: palevioletred;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-size: 2rem;
+    font-style: italic;
+    
+}
+
+.setting{
+    position: absolute;
+    bottom: 0cap;
+    right: 0%;
+    display: flex;
+    gap: 1rem;
+}
+
+.setting .fa-cog{
+    font-size: 3rem;
+    color: azure;
+}
+
+.setting-content{
+    display: flex;
+    gap: 1rem;
+}
+
+.setting-content input{
+    padding:0.5rem 1rem;
+    font-size:1rem;
+}
+
+.setting-content button{
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+.time-container{
+    display: flex;
+    justify-items: space-around;
+    position: absolute;
+    margin: 25px 80px;
+}
+
+.time-container h2{
+    position: relative;
+    margin: 25px 35px;
+}
+
